@@ -18,6 +18,7 @@ public class Libro {
             inverseJoinColumns = @JoinColumn(name = "autor_id")
     )
    private List<Autor> autor;
+    @ElementCollection
    private List<String> idioma;
    private Double numeroDeDescargas;
 
@@ -25,7 +26,7 @@ public class Libro {
     public Libro(DatosLibro datos) {
         this.titulo=datos.titulo();
         this.autor=datos.autor();
-        this.idioma=datos.idiomas();
+        this.idioma=datos.idioma();
         this.numeroDeDescargas=datos.numeroDeDescargas();
 
     }
