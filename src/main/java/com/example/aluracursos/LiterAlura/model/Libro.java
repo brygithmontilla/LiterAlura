@@ -18,7 +18,7 @@ public class Libro {
             inverseJoinColumns = @JoinColumn(name = "autor_id")
     )
    private List<Autor> autor;
-    @ElementCollection
+    @ElementCollection(fetch = FetchType.EAGER)
    private List<String> idioma;
    private Double numeroDeDescargas;
 

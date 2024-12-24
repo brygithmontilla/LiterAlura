@@ -11,8 +11,9 @@ import java.util.Optional;
 public interface LibroRepository extends JpaRepository<Libro,Long> {
 
 
-    @Query("SELECT l FROM Libro l LEFT JOIN FETCH l.autor")
+    @Query("SELECT l FROM Libro l LEFT JOIN FETCH l.autor ")
     List<Libro> findAllWithAuthors();
+
 
     @Query("SELECT l FROM Libro l LEFT JOIN FETCH l.autor WHERE ?1 MEMBER OF l.idioma")
     List<Libro> findByIdiomasAllWithAuthors( String idioma);
