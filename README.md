@@ -1,5 +1,5 @@
 # Literalura
-![Imagen de una biblioteca](biblioteca_v.jpg)  
+![Imagen de una biblioteca](menu.png)  
 
 
 
@@ -17,4 +17,12 @@ La aplicación **Literalura** facilita la gestión de libros y autores en una ba
 4. **Listar autores por año**: Filtra y muestra autores que publicaron libros en un año específico.
 5. **Listar libros por idioma**: Permite filtrar los libros según el idioma en el que están escritos.
 
+## Video de presentación
+
+Mira el video de presentación de la aplicación **Literalura**:
+
+<video width="640" height="360" controls>
+  <source src="LiterAlura.mp4" type="video/mp4">
+  Tu navegador no soporta el formato de video.
+</video>
 
