@@ -19,10 +19,10 @@ La aplicación **Literalura** facilita la gestión de libros y autores en una ba
 
 ## Video de presentación
 
+## Video de presentación
+
 Mira el video de presentación de la aplicación **Literalura**:
 
-<video width="640" height="360" controls>
-  <source src="LiterAlura.mp4" type="video/mp4">
-  Tu navegador no soporta el formato de video.
-</video>
+[Ver el video](https://drive.google.com/file/d/1-fRDdW1f8rkxC_Ftm-H4iPi4f60alEra/view?usp=sharing)
+
 
