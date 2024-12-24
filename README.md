@@ -1,9 +1,9 @@
 # Literalura
+![Imagen de una biblioteca](biblioteca_v.jpg)  
 
-**Literalura** es una aplicación para gestionar y explorar una biblioteca digital. Permite registrar libros, listar autores, y realizar búsquedas detalladas por año o idioma. Todo esto a través de una interfaz en la consola de IntelliJ.
 
-![Imagen de una biblioteca](ruta/a/tu/imagen.jpg)  
-*Imagen representativa de la biblioteca*
+
+
 
 ## Descripción
 
